@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  transition: 0.5s;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "main"
+    "footer";
+  color: black;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "section1"
+    "section2";
+}
+.section2 {
+  padding: 0px;
+}
