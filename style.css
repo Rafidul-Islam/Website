@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-areas: "header" "main" "main" "main" "footer";
   color: powderblue;
-  margin:0 3%;
+  margin:0 1%;
   height: auto;
 }
 
